@@ -12,8 +12,8 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
-  
+  line(171, 23, 191, 4);
+  line(191, 4, 212, 25);
 
 }
 
