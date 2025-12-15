@@ -12,10 +12,12 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-  line(171, 23, 191, 4);
-  line(191, 4, 212, 25);
-
+  strokeWeight(0)
+  arc(200, 400, 390, 200, radians(180), radians(360));
+  
 }
+  
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)

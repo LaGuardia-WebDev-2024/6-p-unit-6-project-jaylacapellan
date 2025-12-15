@@ -20,10 +20,8 @@ html{
 #myCanvas {
   border-radius: 30px;
   border: 15px double rgb(0, 0, 0);
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png);
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(https://wallpapers.com/images/hd/minimalist-peppa-pig-house-wqson5llmnt44597.jpg);
+  background-size:400px 400px;
 }
 
 .container{
