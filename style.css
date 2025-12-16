@@ -20,14 +20,13 @@ html{
 #myCanvas {
   border-radius: 30px;
   border: 15px double rgb(0, 0, 0);
-  background-image: url(https://wallpapers.com/images/hd/minimalist-peppa-pig-house-wqson5llmnt44597.jpg);
   background-size:400px 400px;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color:white;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
@@ -37,7 +36,6 @@ html{
 .pic{
   height: 400px;
   width: 400px;
-  object-fit: contain;
   border-radius: 30px;
   border: 15px double rgb(0, 0, 0);
 }

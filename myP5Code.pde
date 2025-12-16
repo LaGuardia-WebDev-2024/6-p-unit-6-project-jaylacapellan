@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(142, 184, 226);
 }
 
 
@@ -11,9 +11,22 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+
   
-  strokeWeight(0)
-  arc(200, 400, 390, 200, radians(180), radians(360));
+
+  //make the hill
+  fill(119, 195, 107);
+  ellipse(200, 400, 400, 200);
+  
+  //fix hill
+  fill(142, 184, 226);
+  noStroke();
+  rect(55, 70, 290, 250);
+
+  //house
+  fill(237, 241, 167);
+  rect(160, 220, 80, 110)
+
   
 }
   
