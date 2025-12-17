@@ -9,13 +9,14 @@ void setup() {
 void draw(){
   fill(255,255,255);
   strokeWeight(1);
-
+  stroke(0,0,0)
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
   
 
   //make the hill
   fill(119, 195, 107);
+  noStroke()
   ellipse(200, 400, 400, 200);
   
   //fix hill
@@ -23,10 +24,26 @@ void draw(){
   noStroke();
   rect(55, 70, 290, 250);
 
-  //house
+  //house base
   fill(237, 241, 167);
-  rect(160, 220, 80, 110)
+  rect(160, 205, 80, 115)
 
+  //another part of house base
+  strokeWeight(1);
+  stroke(206, 209, 153);
+  rect(139, 205, 21, 115 );
+
+  //roof triangle
+  fill(237, 241, 167);
+  noStroke();
+  triangle(240, 205, 161, 205, 200, 140);
+
+  //roof rectangle thing
+  fill(213, 114, 78);
+  quad(161, 205, 139, 205, 179, 140, 200, 140); 
+
+  //lines on roof rectangle 
+  
   
 }
   
